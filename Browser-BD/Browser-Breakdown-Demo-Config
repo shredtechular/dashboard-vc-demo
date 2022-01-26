@@ -33,16 +33,18 @@
             "width": 5
           },
           "rawConfiguration": {
+            "dataFormatters": [],
             "nrqlQueries": [
               {
                 "accountId": 3361966,
                 "query": "SELECT count(*) FROM PageView FACET browserTransactionName SINCE 1 week ago LIMIT 25"
               }
-            ]
+            ],
+            "thresholds": []
           },
           "title": "Traffic by Page Group",
           "visualization": {
-            "id": "viz.bar"
+            "id": "viz.billboard"
           }
         },
         {
