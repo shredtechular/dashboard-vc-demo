@@ -87,7 +87,7 @@
               }
             ]
           },
-          "title": "Load Time Distribution",
+          "title": "Load Time Distribution since 1 week ago",
           "visualization": {
             "id": "viz.heatmap"
           }
