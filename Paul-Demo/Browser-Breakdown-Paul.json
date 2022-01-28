@@ -28,14 +28,11 @@
         {
           "layout": {
             "column": 1,
-            "height": 8,
+            "height": 4,
             "row": 3,
-            "width": 11
+            "width": 5
           },
           "rawConfiguration": {
-            "facet": {
-              "showOtherSeries": false
-            },
             "nrqlQueries": [
               {
                 "accountId": 3361966,
@@ -43,7 +40,7 @@
               }
             ]
           },
-          "title": "a;sdklf;asldkjf;laksdjf;lkajsdf;lkajsd;lfj",
+          "title": "Traffic by Page Group",
           "visualization": {
             "id": "viz.bar"
           }
@@ -52,7 +49,7 @@
           "layout": {
             "column": 6,
             "height": 4,
-            "row": 11,
+            "row": 3,
             "width": 2
           },
           "rawConfiguration": {
@@ -77,7 +74,7 @@
           "layout": {
             "column": 8,
             "height": 4,
-            "row": 11,
+            "row": 3,
             "width": 5
           },
           "rawConfiguration": {
@@ -97,7 +94,7 @@
           "layout": {
             "column": 1,
             "height": 3,
-            "row": 15,
+            "row": 7,
             "width": 9
           },
           "rawConfiguration": {
@@ -117,7 +114,7 @@
           "layout": {
             "column": 10,
             "height": 3,
-            "row": 15,
+            "row": 7,
             "width": 3
           },
           "rawConfiguration": {
@@ -137,7 +134,7 @@
           "layout": {
             "column": 1,
             "height": 3,
-            "row": 18,
+            "row": 10,
             "width": 7
           },
           "rawConfiguration": {
@@ -157,7 +154,7 @@
           "layout": {
             "column": 8,
             "height": 3,
-            "row": 18,
+            "row": 10,
             "width": 5
           },
           "rawConfiguration": {
@@ -177,7 +174,7 @@
           "layout": {
             "column": 1,
             "height": 3,
-            "row": 21,
+            "row": 13,
             "width": 6
           },
           "rawConfiguration": {
@@ -197,7 +194,7 @@
           "layout": {
             "column": 7,
             "height": 3,
-            "row": 21,
+            "row": 13,
             "width": 6
           },
           "rawConfiguration": {
@@ -217,7 +214,7 @@
           "layout": {
             "column": 1,
             "height": 3,
-            "row": 24,
+            "row": 16,
             "width": 4
           },
           "rawConfiguration": {
@@ -237,7 +234,7 @@
           "layout": {
             "column": 5,
             "height": 3,
-            "row": 24,
+            "row": 16,
             "width": 4
           },
           "rawConfiguration": {
@@ -257,7 +254,7 @@
           "layout": {
             "column": 9,
             "height": 3,
-            "row": 24,
+            "row": 16,
             "width": 4
           },
           "rawConfiguration": {
@@ -277,7 +274,7 @@
           "layout": {
             "column": 1,
             "height": 3,
-            "row": 27,
+            "row": 19,
             "width": 4
           },
           "rawConfiguration": {
@@ -296,9 +293,9 @@
         {
           "layout": {
             "column": 5,
-            "height": 8,
-            "row": 27,
-            "width": 1
+            "height": 3,
+            "row": 19,
+            "width": 4
           },
           "rawConfiguration": {
             "nrqlQueries": [
@@ -317,7 +314,7 @@
           "layout": {
             "column": 9,
             "height": 3,
-            "row": 27,
+            "row": 19,
             "width": 4
           },
           "rawConfiguration": {
@@ -337,7 +334,7 @@
           "layout": {
             "column": 1,
             "height": 4,
-            "row": 35,
+            "row": 22,
             "width": 12
           },
           "rawConfiguration": {
@@ -357,7 +354,7 @@
           "layout": {
             "column": 1,
             "height": 5,
-            "row": 39,
+            "row": 26,
             "width": 8
           },
           "rawConfiguration": {
@@ -377,7 +374,7 @@
           "layout": {
             "column": 9,
             "height": 5,
-            "row": 39,
+            "row": 26,
             "width": 4
           },
           "rawConfiguration": {
@@ -397,7 +394,7 @@
           "layout": {
             "column": 1,
             "height": 4,
-            "row": 44,
+            "row": 31,
             "width": 8
           },
           "rawConfiguration": {
@@ -417,7 +414,7 @@
           "layout": {
             "column": 9,
             "height": 4,
-            "row": 44,
+            "row": 31,
             "width": 4
           },
           "rawConfiguration": {
@@ -437,7 +434,7 @@
           "layout": {
             "column": 1,
             "height": 5,
-            "row": 48,
+            "row": 35,
             "width": 9
           },
           "rawConfiguration": {
@@ -457,7 +454,7 @@
           "layout": {
             "column": 10,
             "height": 5,
-            "row": 48,
+            "row": 35,
             "width": 3
           },
           "rawConfiguration": {
@@ -477,7 +474,7 @@
           "layout": {
             "column": 1,
             "height": 6,
-            "row": 53,
+            "row": 40,
             "width": 12
           },
           "rawConfiguration": {
@@ -497,7 +494,7 @@
           "layout": {
             "column": 1,
             "height": 3,
-            "row": 59,
+            "row": 46,
             "width": 4
           },
           "rawConfiguration": {
@@ -517,7 +514,7 @@
           "layout": {
             "column": 5,
             "height": 3,
-            "row": 59,
+            "row": 46,
             "width": 8
           },
           "rawConfiguration": {
