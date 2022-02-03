@@ -28,50 +28,28 @@
         {
           "layout": {
             "column": 1,
-            "height": 32,
+            "height": 4,
             "row": 2,
-            "width": 8
+            "width": 5
           },
           "rawConfiguration": {
-            "dataFormatters": [],
             "nrqlQueries": [
               {
                 "accountId": 3361966,
                 "query": "SELECT count(*) FROM PageView FACET browserTransactionName SINCE 1 week ago LIMIT 25"
               }
-            ],
-            "thresholds": []
+            ]
           },
           "title": "Traffic by Page Group",
           "visualization": {
-            "id": "viz.billboard"
-          }
-        },
-        {
-          "layout": {
-            "column": 10,
-            "height": 3,
-            "row": 2,
-            "width": 3
-          },
-          "rawConfiguration": {
-            "nrqlQueries": [
-              {
-                "accountId": 3361966,
-                "query": "SELECT uniqueCount(session) FROM PageView since 60 minute ago until 10 seconds ago COMPARE WITH 1 hour ago"
-              }
-            ]
-          },
-          "title": "Active Sessions",
-          "visualization": {
-            "id": "viz.billboard"
+            "id": "viz.bar"
           }
         },
         {
           "layout": {
             "column": 6,
             "height": 4,
-            "row": 40,
+            "row": 2,
             "width": 2
           },
           "rawConfiguration": {
@@ -96,18 +74,18 @@
           "layout": {
             "column": 8,
             "height": 4,
-            "row": 40,
+            "row": 2,
             "width": 5
           },
           "rawConfiguration": {
             "nrqlQueries": [
               {
                 "accountId": 3361966,
-                "query": "SELECT histogram(duration, 7, 100) FROM PageView FACET browserTransactionName SINCE 2 weeks ago"
+                "query": "SELECT histogram(duration, 7, 100) FROM PageView FACET browserTransactionName SINCE 1 week ago"
               }
             ]
           },
-          "title": "Load Time Distribution For 2 weeks",
+          "title": "Load Time Distribution",
           "visualization": {
             "id": "viz.heatmap"
           }
@@ -116,7 +94,7 @@
           "layout": {
             "column": 1,
             "height": 3,
-            "row": 44,
+            "row": 6,
             "width": 9
           },
           "rawConfiguration": {
@@ -134,9 +112,29 @@
         },
         {
           "layout": {
+            "column": 10,
+            "height": 3,
+            "row": 6,
+            "width": 3
+          },
+          "rawConfiguration": {
+            "nrqlQueries": [
+              {
+                "accountId": 3361966,
+                "query": "SELECT uniqueCount(session) FROM PageView since 60 minute ago until 10 seconds ago COMPARE WITH 1 hour ago"
+              }
+            ]
+          },
+          "title": "Active Sessions",
+          "visualization": {
+            "id": "viz.billboard"
+          }
+        },
+        {
+          "layout": {
             "column": 1,
             "height": 3,
-            "row": 47,
+            "row": 9,
             "width": 7
           },
           "rawConfiguration": {
@@ -156,7 +154,7 @@
           "layout": {
             "column": 8,
             "height": 3,
-            "row": 47,
+            "row": 9,
             "width": 5
           },
           "rawConfiguration": {
@@ -176,7 +174,7 @@
           "layout": {
             "column": 1,
             "height": 3,
-            "row": 50,
+            "row": 12,
             "width": 6
           },
           "rawConfiguration": {
@@ -196,7 +194,7 @@
           "layout": {
             "column": 7,
             "height": 3,
-            "row": 50,
+            "row": 12,
             "width": 6
           },
           "rawConfiguration": {
@@ -216,7 +214,7 @@
           "layout": {
             "column": 1,
             "height": 3,
-            "row": 53,
+            "row": 15,
             "width": 4
           },
           "rawConfiguration": {
@@ -236,7 +234,7 @@
           "layout": {
             "column": 5,
             "height": 3,
-            "row": 53,
+            "row": 15,
             "width": 4
           },
           "rawConfiguration": {
@@ -256,7 +254,7 @@
           "layout": {
             "column": 9,
             "height": 3,
-            "row": 53,
+            "row": 15,
             "width": 4
           },
           "rawConfiguration": {
@@ -276,7 +274,7 @@
           "layout": {
             "column": 1,
             "height": 3,
-            "row": 56,
+            "row": 18,
             "width": 4
           },
           "rawConfiguration": {
@@ -296,7 +294,7 @@
           "layout": {
             "column": 5,
             "height": 3,
-            "row": 56,
+            "row": 18,
             "width": 4
           },
           "rawConfiguration": {
@@ -316,7 +314,7 @@
           "layout": {
             "column": 9,
             "height": 3,
-            "row": 56,
+            "row": 18,
             "width": 4
           },
           "rawConfiguration": {
@@ -336,7 +334,7 @@
           "layout": {
             "column": 1,
             "height": 4,
-            "row": 59,
+            "row": 21,
             "width": 12
           },
           "rawConfiguration": {
@@ -356,7 +354,7 @@
           "layout": {
             "column": 1,
             "height": 5,
-            "row": 63,
+            "row": 25,
             "width": 8
           },
           "rawConfiguration": {
@@ -376,7 +374,7 @@
           "layout": {
             "column": 9,
             "height": 5,
-            "row": 63,
+            "row": 25,
             "width": 4
           },
           "rawConfiguration": {
@@ -396,7 +394,7 @@
           "layout": {
             "column": 1,
             "height": 4,
-            "row": 68,
+            "row": 30,
             "width": 8
           },
           "rawConfiguration": {
@@ -416,7 +414,7 @@
           "layout": {
             "column": 9,
             "height": 4,
-            "row": 68,
+            "row": 30,
             "width": 4
           },
           "rawConfiguration": {
@@ -436,7 +434,7 @@
           "layout": {
             "column": 1,
             "height": 5,
-            "row": 72,
+            "row": 34,
             "width": 9
           },
           "rawConfiguration": {
@@ -456,7 +454,7 @@
           "layout": {
             "column": 10,
             "height": 5,
-            "row": 72,
+            "row": 34,
             "width": 3
           },
           "rawConfiguration": {
@@ -476,7 +474,7 @@
           "layout": {
             "column": 1,
             "height": 6,
-            "row": 77,
+            "row": 39,
             "width": 12
           },
           "rawConfiguration": {
@@ -496,7 +494,7 @@
           "layout": {
             "column": 1,
             "height": 3,
-            "row": 83,
+            "row": 45,
             "width": 4
           },
           "rawConfiguration": {
@@ -516,7 +514,7 @@
           "layout": {
             "column": 5,
             "height": 3,
-            "row": 83,
+            "row": 45,
             "width": 8
           },
           "rawConfiguration": {
